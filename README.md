@@ -17,3 +17,18 @@ pnpm dev
 ```
 
 If you remove `"type": "module"` from `package.json` things work.
+
+
+## Building
+
+You can compile to JS using
+
+```sh
+pnpm build
+```
+
+And then run that code by:
+
+```sh
+pnpm start
+```
